@@ -17,7 +17,7 @@ console.log("NO CONTEXT");
 console.log(result.text);
 
 console.log("\n\nWITH CONTEXT");
-const results = await index.search({ query, limit: 2 });
+const results = await index.search({ query, limit: 5 });
 
 
 const urls = new Map<string, number>();
